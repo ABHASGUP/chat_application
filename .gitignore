@@ -28,9 +28,12 @@ Thumbs.db
 !/images/.gitkeep
 
 # Database
-*.sql
 *.sqlite
 *.sqlite3
+*.sql
 
 # Config files with sensitive information
 config.php
+
+# Keep database schema
+!database.sql
